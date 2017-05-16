@@ -1,0 +1,1 @@
+/home/bofur/projects/med-stream/./migrations/src_migrations/main/scala/1.scala

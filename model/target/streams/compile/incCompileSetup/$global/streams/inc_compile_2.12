@@ -1,0 +1,450 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/bofur/projects/med-stream/model/target/scala-2.12/classes
+compile options:
+23 items
+00 -> -target:jvm-1.8
+01 -> -deprecation
+02 -> -encoding
+03 -> UTF-8
+04 -> -feature
+05 -> -language:existentials
+06 -> -language:higherKinds
+07 -> -language:implicitConversions
+08 -> -unchecked
+09 -> -Xfatal-warnings
+10 -> -Xlint
+11 -> -Yno-adapted-args
+12 -> -Ywarn-dead-code
+13 -> -Ywarn-numeric-widen
+14 -> -Ywarn-value-discard
+15 -> -Xfuture
+16 -> -Ywarn-unused
+17 -> -Ywarn-unused-import
+18 -> -P:wartremover:excluded:/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala
+19 -> -P:wartremover:excluded:/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala
+20 -> -P:wartremover:traverser:org.wartremover.warts.Unsafe
+21 -> -Xprint:typer
+22 -> -Xplugin:/home/bofur/.ivy2/cache/org.wartremover/wartremover_2.12/jars/wartremover_2.12-2.0.3.jar
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.12.2
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+14 items
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> /home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/latest/Version$.class
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> /home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/latest/Version.class
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> /home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/latest/tables$.class
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> /home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/latest/tables$Users.class
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> /home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/latest/tables$UsersRow$.class
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> /home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/latest/tables$UsersRow.class
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> /home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/latest/tables.class
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> /home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/v1/Version$.class
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> /home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/v1/Version.class
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> /home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/v1/tables$.class
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> /home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/v1/tables$Users.class
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> /home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/v1/tables$UsersRow$.class
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> /home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/v1/tables$UsersRow.class
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> /home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/v1/tables.class
+binary dependencies:
+6 items
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> /home/bofur/.ivy2/cache/com.typesafe.slick/slick_2.12/bundles/slick_2.12-3.2.0.jar
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> /home/bofur/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> /usr/lib/jvm/java-8-jdk/jre/lib/rt.jar
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> /home/bofur/.ivy2/cache/com.typesafe.slick/slick_2.12/bundles/slick_2.12-3.2.0.jar
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> /home/bofur/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> /usr/lib/jvm/java-8-jdk/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+14 items
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> ru.bofur.medstream.model.latest.Version
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> ru.bofur.medstream.model.latest.Version$
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> ru.bofur.medstream.model.latest.tables
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> ru.bofur.medstream.model.latest.tables$
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> ru.bofur.medstream.model.latest.tables$Users
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> ru.bofur.medstream.model.latest.tables$UsersRow
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> ru.bofur.medstream.model.latest.tables$UsersRow$
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> ru.bofur.medstream.model.v1.Version
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> ru.bofur.medstream.model.v1.Version$
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> ru.bofur.medstream.model.v1.tables
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> ru.bofur.medstream.model.v1.tables$
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> ru.bofur.medstream.model.v1.tables$Users
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> ru.bofur.medstream.model.v1.tables$UsersRow
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> ru.bofur.medstream.model.v1.tables$UsersRow$
+used names:
+302 items
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> &&
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> <<
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> <>
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> <init>
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> <refinement>
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> <repeated>
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> ==
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> A
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> API
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> AbstractFunction3
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> Any
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> AnyRef
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> B
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> BaseTypedType
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> Boolean
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> C
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> Class
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> ClassTag
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> ColumnOption
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> ColumnOptions
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> Exception
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> FlatShapeLevel
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> Function1
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> GR
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> GetResult
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> H2Profile
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> IndexOutOfBoundsException
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> Int
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> IntJdbcType
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> Iterator
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> JdbcProfile
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> JdbcTypes
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> Level
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> M
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> M1
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> M2
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> M3
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> MappedProjection
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> None
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> Nothing
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> O
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> Object
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> Option
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> OptionLift
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> P
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> P1
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> P2
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> P3
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> PositionedResult
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> Predef
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> PrimaryKey
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> Product
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> ProvenShape
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> Query
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> R
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> RelationalProfile
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> Rep
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> ScalaRunTime
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> SchemaDescription
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> Seq
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> Serializable
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> Shape
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> ShapeLevel
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> ShapedValue
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> Some
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> Statics
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> String
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> StringJdbcType
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> T
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> T0
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> T1
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> T2
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> T3
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> Table
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> TableQuery
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> TableQueryExtensionMethods
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> Tag
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> Tuple3
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> TypedType
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> U
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> U1
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> U2
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> U3
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> Users
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> UsersRow
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> Version
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> _$1
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> _$2
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> _$3
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> _$4
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> _$5
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> _$53
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> _$54
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> _$6
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> _$7
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> _1
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> _2
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> _3
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> _root_
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> _tableTag
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> _toString
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> anyHash
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> anyToShapedValue
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> api
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> apply
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> asInstanceOf
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> bofur
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> column
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> e0
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> e1
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> eq
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> finalizeHash
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> first
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> get
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> id
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> intColumnType
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> isInstanceOf
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> jdbc
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> last
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> latest
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> lifted
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> map
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> mappedProjectionShape
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> materializeClassTag
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> medstream
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> mix
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> model
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> optionShape
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> package
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> profile
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> proveShapeOf
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> prs
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> r
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> reflect
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> repColumnShape
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> repOptionLift
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> ru
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> runtime
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> scala
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> schema
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> shaped
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> slick
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> stringColumnType
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> tableQueryToTableQueryExtensionMethods
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> tables
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> tag
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> toString
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> tuple3Shape
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> tupled
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> typedProductIterator
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> ||
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> &&
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> <<
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> <>
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> <init>
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> <refinement>
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> <repeated>
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> ==
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> A
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> API
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> AbstractFunction3
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> Any
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> AnyRef
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> B
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> BaseTypedType
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> Boolean
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> C
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> Class
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> ClassTag
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> ColumnOption
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> ColumnOptions
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> Exception
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> FlatShapeLevel
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> Function1
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> GR
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> GetResult
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> H2Profile
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> IndexOutOfBoundsException
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> Int
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> IntJdbcType
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> Iterator
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> JdbcProfile
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> JdbcTypes
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> Level
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> M
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> M1
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> M2
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> M3
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> MappedProjection
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> None
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> Nothing
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> O
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> Object
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> Option
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> OptionLift
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> P
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> P1
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> P2
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> P3
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> PositionedResult
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> Predef
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> PrimaryKey
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> Product
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> ProvenShape
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> Query
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> R
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> RelationalProfile
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> Rep
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> ScalaRunTime
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> SchemaDescription
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> Seq
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> Serializable
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> Shape
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> ShapeLevel
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> ShapedValue
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> Some
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> Statics
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> String
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> StringJdbcType
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> T
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> T0
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> T1
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> T2
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> T3
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> Table
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> TableQuery
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> TableQueryExtensionMethods
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> Tag
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> Tuple3
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> TypedType
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> U
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> U1
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> U2
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> U3
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> Users
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> UsersRow
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> Version
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> _$1
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> _$2
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> _$3
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> _$4
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> _$5
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> _$53
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> _$54
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> _$6
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> _$7
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> _1
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> _2
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> _3
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> _root_
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> _tableTag
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> _toString
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> anyHash
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> anyToShapedValue
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> api
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> apply
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> asInstanceOf
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> bofur
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> column
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> e0
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> e1
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> eq
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> finalizeHash
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> first
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> get
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> id
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> intColumnType
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> isInstanceOf
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> jdbc
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> last
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> lifted
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> map
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> mappedProjectionShape
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> materializeClassTag
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> medstream
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> mix
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> model
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> optionShape
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> package
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> profile
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> proveShapeOf
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> prs
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> r
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> reflect
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> repColumnShape
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> repOptionLift
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> ru
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> runtime
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> scala
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> schema
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> shaped
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> slick
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> stringColumnType
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> tableQueryToTableQueryExtensionMethods
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> tables
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> tag
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> toString
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> tuple3Shape
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> tupled
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> typedProductIterator
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> v1
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> ||
+product stamps:
+14 items
+/home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/latest/Version$.class -> lastModified(1494701474000)
+/home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/latest/Version.class -> lastModified(1494701474000)
+/home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/latest/tables$.class -> lastModified(1494701474000)
+/home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/latest/tables$Users.class -> lastModified(1494701474000)
+/home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/latest/tables$UsersRow$.class -> lastModified(1494701474000)
+/home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/latest/tables$UsersRow.class -> lastModified(1494701474000)
+/home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/latest/tables.class -> lastModified(1494701474000)
+/home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/v1/Version$.class -> lastModified(1494701474000)
+/home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/v1/Version.class -> lastModified(1494701474000)
+/home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/v1/tables$.class -> lastModified(1494701474000)
+/home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/v1/tables$Users.class -> lastModified(1494701474000)
+/home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/v1/tables$UsersRow$.class -> lastModified(1494701474000)
+/home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/v1/tables$UsersRow.class -> lastModified(1494701474000)
+/home/bofur/projects/med-stream/model/target/scala-2.12/classes/ru/bofur/medstream/model/v1/tables.class -> lastModified(1494701474000)
+source stamps:
+2 items
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> hash(a909b1704eb9983e9a73f045e425910d48958181)
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> hash(9c347dd9dd59b8fc32618cbafe6a9a03d1ccb6b8)
+binary stamps:
+3 items
+/home/bofur/.ivy2/cache/com.typesafe.slick/slick_2.12/bundles/slick_2.12-3.2.0.jar -> lastModified(1487940846000)
+/home/bofur/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar -> lastModified(1492071552000)
+/usr/lib/jvm/java-8-jdk/jre/lib/rt.jar -> lastModified(1489566767000)
+class names:
+3 items
+/home/bofur/.ivy2/cache/com.typesafe.slick/slick_2.12/bundles/slick_2.12-3.2.0.jar -> slick.relational.RelationalTableComponent
+/home/bofur/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar -> scala.Serializable
+/usr/lib/jvm/java-8-jdk/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+2 items
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwqhI7/AAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAFzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHDksxtHdAARR2V0UmVzdWx0VXNlcnNSb3d1cQB+AAkAAABGc3EAfgALnXQEsnQABm5vdGlmeXNxAH4AC8kMvbB0AAd1bmFwcGx5c3EAfgALQX6Bp3QAB2N1cnJpZWRzcQB+AAsGei1kdAAEd2FpdHNxAH4AC7Axhcp0AAEqc3EAfgALOzsnR3QADmNvcHkkZGVmYXVsdCQyc3EAfgALdti9U3QADSRhc0luc3RhbmNlT2ZzcQB+AAth8hGxdAAFVXNlcnNzcQB+AAvyOzNvdAAMcHJvZHVjdEFyaXR5c3EAfgAL7um3BHQABmVxdWFsc3NxAH4AC1sWdFB0ABRmb3JlaWduS2V5JGRlZmF1bHQkNXNxAH4AC5VH88h0AAdpbmRleGVzc3EAfgALirbsenQACFVzZXJzUm93c3EAfgALupveEXQADGFzSW5zdGFuY2VPZnNxAH4AC1faeJ90ABB0YWJsZUNvbnN0cmFpbnRzc3EAfgALHXyyMXQACmZvcmVpZ25LZXlzcQB+AAtFiNGsdAAMc3luY2hyb25pemVkc3EAfgAL21E9fnQADSRpc0luc3RhbmNlT2ZzcQB+AAu8pWZMdAAJZW5jb2RlUmVmc3EAfgALMZk6D3QAB1ZlcnNpb25zcQB+AAtf4MrEdAAGdHVwbGVkc3EAfgALASMcOHQAC3ByaW1hcnlLZXlzc3EAfgALnbzm73QACXRhYmxlTm9kZXNxAH4AC08iwUt0AANkZGxzcQB+AAt5I4UOdAAIY2FuRXF1YWxzcQB+AAsPOGsUdAANdGFibGVQcm92aWRlcnNxAH4AC41ydTF0AA1wcm9kdWN0UHJlZml4c3EAfgALl07UwnQABGxhc3RzcQB+AAtDopccdAALZm9yZWlnbktleXNzcQB+AAu3f22GdAAJbm90aWZ5QWxsc3EAfgALdM7rdnQACnByaW1hcnlLZXlzcQB+AAv4JYbpdAAMaXNJbnN0YW5jZU9mc3EAfgALA1jGyHQAFGZvcmVpZ25LZXkkZGVmYXVsdCQ2c3EAfgAL9wZ92XQAB3ZlcnNpb25zcQB+AAti/TALdAAGPGluaXQ+c3EAfgAL+LydBnQAAmlkc3EAfgALXPnKdHQABnNjaGVtYXNxAH4ACy+N5v10AAdwcm9maWxlc3EAfgALtGARSHQABWFwcGx5c3EAfgALJlOvPXQACnNjaGVtYU5hbWVzcQB+AAsz3EncdAAIY3JlYXRlXypzcQB+AAtygw2QdAAJdGFibGVOYW1lc3EAfgALuzxt23QACHRhYmxlVGFnc3EAfgALGsmzhnQAAj09c3EAfgALg/2LUnQABWNsb25lc3EAfgALd/o8qXQABnRvTm9kZXNxAH4AC3k2D090ABNjb2xsZWN0RmllbGRTeW1ib2xzc3EAfgALaiDtx3QAEFRhYmxlRWxlbWVudFR5cGVzcQB+AAuxEZq3dAAGJGluaXQkc3EAfgALP4TYZHQAAT9zcQB+AAsQnPu/dAAFZmlyc3RzcQB+AAsIPTsTdAAOY29weSRkZWZhdWx0JDNzcQB+AAt/2WwfdAAEY29weXNxAH4AC+EDjmt0AAZjb2x1bW5zcQB+AAsbX5e8dAAIdG9TdHJpbmdzcQB+AAvjDfc0dAAPaW5kZXgkZGVmYXVsdCQzc3EAfgALcMdiuHQAAiE9c3EAfgALXMw8ZXQACGdldENsYXNzc3EAfgALg9LGkHQADmNvcHkkZGVmYXVsdCQxc3EAfgALe+cC7nQAE3RhYmxlSWRlbnRpdHlTeW1ib2xzcQB+AAsSUJSOdAACbmVzcQB+AAsurF6OdAABT3NxAH4AC/dJKQB0AAZ0YWJsZXNzcQB+AAsLIcNYdAACZXFzcQB+AAufVk8+dAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgALr2qaGHQAAiMjc3EAfgALUSZ+AnQACGZpbmFsaXplc3EAfgALb3Nf+nQABWluZGV4c3EAfgALECBd/nQADnByb2R1Y3RFbGVtZW50c3EAfgALPKvBYnQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAA3NyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ApXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAJnJ1LmJvZnVyLm1lZHN0cmVhbS5tb2RlbC5sYXRlc3QudGFibGVzdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQAEHNjYWxhLmRlcHJlY2F0ZWRzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AvnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgClTAAJaW5oZXJpdGVkcQB+AKVMAAdwYXJlbnRzcQB+AKV4cQB+AMNzcQB+AL51cQB+AKAAAAAAc3EAfgC+dXEAfgCgAAAAAHNxAH4AvnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAADc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AwnQABnRhYmxlc3NyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AwnNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAABnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAACcnVzcQB+ANt0AAVib2Z1cnNxAH4A23QACW1lZHN0cmVhbXNxAH4A23QABW1vZGVsc3EAfgDbdAAGbGF0ZXN0c3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+ANxzcQB+AM90AAZPYmplY3RzcQB+ANNzcQB+ANZ1cQB+ANkAAAADc3EAfgDbdAAEamF2YXNxAH4A23QABGxhbmdxAH4A6HNxAH4Az3QAA0FueXNxAH4A03NxAH4A1nVxAH4A2QAAAAJzcQB+ANt0AAVzY2FsYXEAfgDoc3EAfgCicQB+AK91cQB+ALAAAAAAc3EAfgCyAXQAJnJ1LmJvZnVyLm1lZHN0cmVhbS5tb2RlbC5sYXRlc3QudGFibGVzdXEAfgC1AAAAAH5xAH4At3QABVRyYWl0dXEAfgC7AAAAAXQAEHNjYWxhLmRlcHJlY2F0ZWRzcQB+AL5xAH4AxHNxAH4AvnNxAH4AxnNxAH4AvnVxAH4AoAAAAABzcQB+AL51cQB+AKAAAAAAc3EAfgC+dXEAfgDNAAAAAnNxAH4Az3EAfgDqc3EAfgDTc3EAfgDWdXEAfgDZAAAAA3NxAH4A23EAfgDvc3EAfgDbcQB+APFxAH4A6HNxAH4Az3EAfgDzc3EAfgDTc3EAfgDWdXEAfgDZAAAAAnNxAH4A23EAfgD4cQB+AOhzcQB+AKJxAH4Ar3VxAH4AsAAAAABzcQB+ALIAdAAncnUuYm9mdXIubWVkc3RyZWFtLm1vZGVsLmxhdGVzdC5WZXJzaW9udXEAfgC1AAAAAHEAfgC5dXEAfgC7AAAAAHNxAH4AvnEAfgDEc3EAfgC+c3EAfgDGc3EAfgC+dXEAfgCgAAAAAHNxAH4AvnVxAH4AoAAAAABzcQB+AL51cQB+AM0AAAACc3EAfgDPcQB+AOpzcQB+ANNzcQB+ANZ1cQB+ANkAAAADc3EAfgDbcQB+AO9zcQB+ANtxAH4A8XEAfgDoc3EAfgDPcQB+APNzcQB+ANNzcQB+ANZ1cQB+ANkAAAACc3EAfgDbcQB+APhxAH4A6HVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAFc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQACHJ1LmJvZnVyc3EAfgEydAACcnVzcQB+ATJ0AB9ydS5ib2Z1ci5tZWRzdHJlYW0ubW9kZWwubGF0ZXN0c3EAfgEydAAYcnUuYm9mdXIubWVkc3RyZWFtLm1vZGVsc3EAfgEydAAScnUuYm9mdXIubWVkc3RyZWFtc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFcAyYpZnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0AD8vaG9tZS9ib2Z1ci9wcm9qZWN0cy9tZWQtc3RyZWFtL21vZGVsL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSpCbFwTrmYPppz8EXkJZENSJWBgQ==
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwzSBPFwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAFzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHABwnVedAARR2V0UmVzdWx0VXNlcnNSb3d1cQB+AAkAAABGc3EAfgALAyzpZHQABm5vdGlmeXNxAH4AC4U8f410AAd1bmFwcGx5c3EAfgALydKuTHQAB2N1cnJpZWRzcQB+AAvdzx07dAAEd2FpdHNxAH4ACyxyTZJ0AAEqc3EAfgALhAkeSXQADmNvcHkkZGVmYXVsdCQyc3EAfgAL9iP8RHQADSRhc0luc3RhbmNlT2ZzcQB+AAvJ9NBidAAFVXNlcnNzcQB+AAsfGybedAAMcHJvZHVjdEFyaXR5c3EAfgAL0546F3QABmVxdWFsc3NxAH4AC2Ifwhl0ABRmb3JlaWduS2V5JGRlZmF1bHQkNXNxAH4ACxlLuHB0AAdpbmRleGVzc3EAfgALQTASLHQACFVzZXJzUm93c3EAfgAL6XojcHQADGFzSW5zdGFuY2VPZnNxAH4ACw+CB7Z0ABB0YWJsZUNvbnN0cmFpbnRzc3EAfgAL5Eeh4XQACmZvcmVpZ25LZXlzcQB+AAt20MFMdAAMc3luY2hyb25pemVkc3EAfgALmokY+3QADSRpc0luc3RhbmNlT2ZzcQB+AAve7ro9dAAJZW5jb2RlUmVmc3EAfgALHjKbhnQAB1ZlcnNpb25zcQB+AAsTwxtDdAAGdHVwbGVkc3EAfgALaCtgrnQAC3ByaW1hcnlLZXlzc3EAfgALuALrRXQACXRhYmxlTm9kZXNxAH4AC0qL1lR0AANkZGxzcQB+AAvF/ZOddAAIY2FuRXF1YWxzcQB+AAtBBiZJdAANdGFibGVQcm92aWRlcnNxAH4ACxBe8Xt0AA1wcm9kdWN0UHJlZml4c3EAfgALKWsVH3QABGxhc3RzcQB+AAt2qL7bdAALZm9yZWlnbktleXNzcQB+AAtywWSIdAAJbm90aWZ5QWxsc3EAfgAL2Sf+YHQACnByaW1hcnlLZXlzcQB+AAt4Vx9BdAAMaXNJbnN0YW5jZU9mc3EAfgALtKOManQAFGZvcmVpZ25LZXkkZGVmYXVsdCQ2c3EAfgALEyMrp3QAB3ZlcnNpb25zcQB+AAvB8ytDdAAGPGluaXQ+c3EAfgALIBNuxXQAAmlkc3EAfgALiO+RkXQABnNjaGVtYXNxAH4ACwnrvrt0AAdwcm9maWxlc3EAfgALtwCj43QABWFwcGx5c3EAfgAL2sJE63QACnNjaGVtYU5hbWVzcQB+AAuIWSV2dAAIY3JlYXRlXypzcQB+AAs0xE08dAAJdGFibGVOYW1lc3EAfgALG76WznQACHRhYmxlVGFnc3EAfgALotTRWHQAAj09c3EAfgALf5JG+3QABWNsb25lc3EAfgALjRUQb3QABnRvTm9kZXNxAH4AC5N61I50ABNjb2xsZWN0RmllbGRTeW1ib2xzc3EAfgAL8RfYW3QAEFRhYmxlRWxlbWVudFR5cGVzcQB+AAtwbrR9dAAGJGluaXQkc3EAfgALSv97nnQAAT9zcQB+AAvfd05VdAAFZmlyc3RzcQB+AAuInPSPdAAOY29weSRkZWZhdWx0JDNzcQB+AAsXSNsrdAAEY29weXNxAH4AC1W2xUd0AAZjb2x1bW5zcQB+AAvzudxCdAAIdG9TdHJpbmdzcQB+AAu90qqCdAAPaW5kZXgkZGVmYXVsdCQzc3EAfgALoIBzoHQAAiE9c3EAfgALnDuPsXQACGdldENsYXNzc3EAfgALaYk3gnQADmNvcHkkZGVmYXVsdCQxc3EAfgALXufVFnQAE3RhYmxlSWRlbnRpdHlTeW1ib2xzcQB+AAtW4uTTdAACbmVzcQB+AAup/Z7LdAABT3NxAH4AC6TBTsV0AAZ0YWJsZXNzcQB+AAu1NSLadAACZXFzcQB+AAtrP7mJdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgALrpKB8HQAAiMjc3EAfgAL/h3ev3QACGZpbmFsaXplc3EAfgALyMuSo3QABWluZGV4c3EAfgALP231UHQADnByb2R1Y3RFbGVtZW50c3EAfgALhyHKy3QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAA3NyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ApXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAInJ1LmJvZnVyLm1lZHN0cmVhbS5tb2RlbC52MS50YWJsZXN1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAABdAAQc2NhbGEuZGVwcmVjYXRlZHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgC+c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AKVMAAlpbmhlcml0ZWRxAH4ApUwAB3BhcmVudHNxAH4ApXhxAH4Aw3NxAH4AvnVxAH4AoAAAAABzcQB+AL51cQB+AKAAAAAAc3EAfgC+dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAANzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgDCdAAGdGFibGVzc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgDCc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAGc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAJydXNxAH4A23QABWJvZnVyc3EAfgDbdAAJbWVkc3RyZWFtc3EAfgDbdAAFbW9kZWxzcQB+ANt0AAJ2MXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgDcc3EAfgDPdAAGT2JqZWN0c3EAfgDTc3EAfgDWdXEAfgDZAAAAA3NxAH4A23QABGphdmFzcQB+ANt0AARsYW5ncQB+AOhzcQB+AM90AANBbnlzcQB+ANNzcQB+ANZ1cQB+ANkAAAACc3EAfgDbdAAFc2NhbGFxAH4A6HNxAH4AonEAfgCvdXEAfgCwAAAAAHNxAH4AsgF0ACJydS5ib2Z1ci5tZWRzdHJlYW0ubW9kZWwudjEudGFibGVzdXEAfgC1AAAAAH5xAH4At3QABVRyYWl0dXEAfgC7AAAAAXQAEHNjYWxhLmRlcHJlY2F0ZWRzcQB+AL5xAH4AxHNxAH4AvnNxAH4AxnNxAH4AvnVxAH4AoAAAAABzcQB+AL51cQB+AKAAAAAAc3EAfgC+dXEAfgDNAAAAAnNxAH4Az3EAfgDqc3EAfgDTc3EAfgDWdXEAfgDZAAAAA3NxAH4A23EAfgDvc3EAfgDbcQB+APFxAH4A6HNxAH4Az3EAfgDzc3EAfgDTc3EAfgDWdXEAfgDZAAAAAnNxAH4A23EAfgD4cQB+AOhzcQB+AKJxAH4Ar3VxAH4AsAAAAABzcQB+ALIAdAAjcnUuYm9mdXIubWVkc3RyZWFtLm1vZGVsLnYxLlZlcnNpb251cQB+ALUAAAAAcQB+ALl1cQB+ALsAAAAAc3EAfgC+cQB+AMRzcQB+AL5zcQB+AMZzcQB+AL51cQB+AKAAAAAAc3EAfgC+dXEAfgCgAAAAAHNxAH4AvnVxAH4AzQAAAAJzcQB+AM9xAH4A6nNxAH4A03NxAH4A1nVxAH4A2QAAAANzcQB+ANtxAH4A73NxAH4A23EAfgDxcQB+AOhzcQB+AM9xAH4A83NxAH4A03NxAH4A1nVxAH4A2QAAAAJzcQB+ANtxAH4A+HEAfgDodXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAVzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADHhwdAAIcnUuYm9mdXJzcQB+ATJ0AAJydXNxAH4BMnQAGHJ1LmJvZnVyLm1lZHN0cmVhbS5tb2RlbHNxAH4BMnQAEnJ1LmJvZnVyLm1lZHN0cmVhbXNxAH4BMnQAG3J1LmJvZnVyLm1lZHN0cmVhbS5tb2RlbC52MXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXAMmKWZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AAxMAA9zb3VyY2VEaXJlY3RvcnlxAH4ADHhwdAA/L2hvbWUvYm9mdXIvcHJvamVjdHMvbWVkLXN0cmVhbS9tb2RlbC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUnDR92d1ZuPwyYYy6/mqaA9HMtrg=
+external apis:
+0 items
+source infos:
+2 items
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala -> 
+AAAAAAAAAAA=
+/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXAMmKWZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPy9ob21lL2JvZnVyL3Byb2plY3RzL21lZC1zdHJlYW0vbW9kZWwvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=

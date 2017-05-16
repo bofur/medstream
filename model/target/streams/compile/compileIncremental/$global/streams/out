@@ -1,0 +1,70 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala, /home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala, /home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala, /home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala, /home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 2 Scala sources to /home/bofur/projects/med-stream/model/target/scala-2.12/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.12.2[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.12.2[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 1dac6cca, interfacing (CompilerInterface) with Scala compiler version 2.12.2[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-target:jvm-1.8[0m
+[0m[[0mdebug[0m] [0m	-deprecation[0m
+[0m[[0mdebug[0m] [0m	-encoding[0m
+[0m[[0mdebug[0m] [0m	UTF-8[0m
+[0m[[0mdebug[0m] [0m	-feature[0m
+[0m[[0mdebug[0m] [0m	-language:existentials[0m
+[0m[[0mdebug[0m] [0m	-language:higherKinds[0m
+[0m[[0mdebug[0m] [0m	-language:implicitConversions[0m
+[0m[[0mdebug[0m] [0m	-unchecked[0m
+[0m[[0mdebug[0m] [0m	-Xfatal-warnings[0m
+[0m[[0mdebug[0m] [0m	-Xlint[0m
+[0m[[0mdebug[0m] [0m	-Yno-adapted-args[0m
+[0m[[0mdebug[0m] [0m	-Ywarn-dead-code[0m
+[0m[[0mdebug[0m] [0m	-Ywarn-numeric-widen[0m
+[0m[[0mdebug[0m] [0m	-Ywarn-value-discard[0m
+[0m[[0mdebug[0m] [0m	-Xfuture[0m
+[0m[[0mdebug[0m] [0m	-Ywarn-unused[0m
+[0m[[0mdebug[0m] [0m	-Ywarn-unused-import[0m
+[0m[[0mdebug[0m] [0m	-P:wartremover:excluded:/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala[0m
+[0m[[0mdebug[0m] [0m	-P:wartremover:excluded:/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala[0m
+[0m[[0mdebug[0m] [0m	-P:wartremover:traverser:org.wartremover.warts.Unsafe[0m
+[0m[[0mdebug[0m] [0m	-Xprint:typer[0m
+[0m[[0mdebug[0m] [0m	-Xplugin:/home/bofur/.ivy2/cache/org.wartremover/wartremover_2.12/jars/wartremover_2.12-2.0.3.jar[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-jdk/jre/lib/resources.jar:/usr/lib/jvm/java-8-jdk/jre/lib/rt.jar:/usr/lib/jvm/java-8-jdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-jdk/jre/lib/jsse.jar:/usr/lib/jvm/java-8-jdk/jre/lib/jce.jar:/usr/lib/jvm/java-8-jdk/jre/lib/charsets.jar:/usr/lib/jvm/java-8-jdk/jre/lib/jfr.jar:/usr/lib/jvm/java-8-jdk/jre/classes:/home/bofur/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/bofur/projects/med-stream/model/target/scala-2.12/classes:/home/bofur/.ivy2/cache/com.typesafe.slick/slick_2.12/bundles/slick_2.12-3.2.0.jar:/home/bofur/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar:/home/bofur/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.jar:/home/bofur/.ivy2/cache/com.typesafe.slick/slick-hikaricp_2.12/bundles/slick-hikaricp_2.12-3.2.0.jar:/home/bofur/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.5.1.jar:/home/bofur/.ivy2/cache/com.h2database/h2/jars/h2-1.4.195.jar:/home/bofur/.ivy2/cache/org.slf4j/slf4j-nop/jars/slf4j-nop-1.7.25.jar:/home/bofur/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 22.426943469 s[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/v1/tables.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	GetResultUsersRow.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/bofur/projects/med-stream/model/src/main/scala/ru/bofur/medstream/model/latest/tables.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	GetResultUsersRow.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Previously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

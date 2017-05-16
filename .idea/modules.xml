@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/med-stream.iml" filepath="$PROJECT_DIR$/.idea/modules/med-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/med-stream-build.iml" filepath="$PROJECT_DIR$/.idea/modules/med-stream-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/migrations.iml" filepath="$PROJECT_DIR$/.idea/modules/migrations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/migrations-build.iml" filepath="$PROJECT_DIR$/.idea/modules/migrations-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/model.iml" filepath="$PROJECT_DIR$/.idea/modules/model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/model-build.iml" filepath="$PROJECT_DIR$/.idea/modules/model-build.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,177 @@
+tasks
+migrations/run new
+migrations/run new sql
+migrations/run apply
+migrations/run apply status
+migrations/run status
+migrations/run init
+migrations/run status
+migrations/run preview
+migrations/run apply
+migrations/run status
+migrations/run
+migrations/run reset
+migrations/run apply
+migrations/run status
+migrations/run init
+migrations/run preview
+migrations/run
+migrations/run update
+migrations/run preview
+exit
+mg new d
+exit
+mg preview
+mg reset
+mg new
+mg new d
+mg init
+mg new d
+mg init
+mg new d
+mg reset
+mg init
+mg new d
+mg preview
+mg reset
+mg init
+mg new d
+mg preview
+mg update
+mg reseet
+mg reset
+mg init
+mg new d
+ng preview
+mg preview
+mg update
+mg preview
+inspect migrationsGenSource
+inspect sourceCode in compile
+inspect sourceCode
+inspect scalaSource
+inspect compile:scalaSource
+inspect migrations/compile:scalaSource
+inspect migrations/compile:migrationsGenSources
+inspect migrations/migrationsGenSources
+inspect migrations/scalacOptions
+inspect migrations/compile:scalacOptions
+inspect migrations/*:scalacOptions
+inspect migrations/compile::scalacOptions
+inspect migrations/*:scalacOptions
+session list
+migrations/comile list
+comile list
+compile list
+show scalacOptions
+show
+show scalacOptions
+reload
+show scalacOptions
+mg preview
+sbt reset
+mg reset
+exit
+mg reset
+mg init
+mg update
+mg preview
+mg status
+mg update
+mg new s
+mg update
+mg preview
+mg update
+mg status
+mg apply
+mg update
+mg preview
+sbt preview
+mg preview
+mg apply
+mg gen
+mg codegen
+exit
+inspect name
+inspect migrations/
+inspect migrations
+inspect migrations/*
+inspect migrations/*:*
+inspect migrations/*:*::*
+show migrations/*:
+inspect migrations/run
+show migrations/run
+inspect compile
+inspect migrations/run
+inspect tree migrations/run
+mg init
+exit
+mg init
+mg reset
+mg init
+mg update
+mg info
+mg migrate
+exit
+mg reset
+mg init
+mg update
+mg migrate
+mg update
+inspect migrations/scalacOptions
+show migrations/*:scalacOptions
+show model/*:scalacOptions
+reload
+show model/*:scalacOptions
+show migrations/*:scalacOptions
+inspect migrations/*:scalacOptions
+reload
+show migrations/*:scalacOptions
+inspect migrations/*:scalacOptions
+show migrations/*:scalacOptions
+reload
+show migrations/compile:compile::scalacOptions
+inspect migrations/compile:compile::scalacOptions
+show model/compile:compile::scalacOptions
+reload
+show scalacOptions
+show migrations/*:scalacOptions
+reload 
+show model/*:scalacOptions
+reload
+show model/*:scalacOptions
+reload
+update
+show model/*:scalacOptions
+show model/compile:scalacOptions
+show model/compile:compile::scalacOptions
+reload
+exit
+reload
+show scalacOptions
+reload
+show scalacOptions
+reload
+show scalacOptions
+inspect migrations/*:scalacOptions
+show migrations/compile:scalaSource
+console
+reload
+show migrations/*:pkg
+show model/*:pkg
+console
+show model/*:pkg
+reload
+show model/*:excludedWartFiles
+show excludedWartFiles
+reload
+show pkg
+show excludedWartFiles
+reload
+show excludedWartFiles
+scalacOptions
+show scalacOptions
+show model/*:scalacOptions
+show migrations/*:scalacOptions
+mg update
+exit
